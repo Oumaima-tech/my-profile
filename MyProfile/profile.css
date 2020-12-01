@@ -1,0 +1,201 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,900;1,400&family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+body {
+  background:#ffab8d; 
+  color: #575F7D;
+  font-family:'Lato', sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: 'Lato', serif;
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  color: #f88e55;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: #575F7D;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px;
+  margin: 5px 5px;
+}
+
+p1 {
+  line-height : 22px;
+  font-size: 13px;
+}
+
+p2 {
+  line-height : 22px;
+  font-size: 10px;
+}
+
+a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: black;
+}
+
+.Container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .Container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .Container {
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .Container {
+    width: 300px;
+  }
+
+}
+
+.Section {
+  background-color: white;
+  line-height: normal;
+  padding: 40px;
+  padding-top: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 40px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.image {
+  border-radius: 90%;
+  width: 180px;
+}
+
+.btn-pink {
+  background-color: #ed6e37;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-pink:hover {
+  background-color: pink;
+  opacity: 1;
+  color: #f88e55;
+}
+.MyPages {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.Mytools li {
+  display: inline;
+  padding: 20px;
+}
+
+.MyPages li {
+  display: inline;
+  padding: 10px;
+
+}
+
+.MyPages i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.MyPages i:hover {
+  color: black;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-behance {
+  background: #007bb5;
+  color: white;
+}
+
+#Me p {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  line-height : 23px;
+}
+
+#Career {
+  line-height : 11px;
+}
+
+#Hobbies {
+  line-height : 8px;
+}
+
+.image3 {
+padding-top: 30px;
+
+}
+
+.image2 {
+padding-top: 20px;
+width: 25%;
+height: auto;
+
+}
+
+.image4 {
+padding-top: 20px;
+width: 25%;
+height: auto;
+
+}
+
+.image5 {
+padding-top: 20px;
+width: 20%;
+height: auto;
+
+}
+
